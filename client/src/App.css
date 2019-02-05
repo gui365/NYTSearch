@@ -1,0 +1,81 @@
+html, body, .navbar, .btn {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.card, .navbar {
+  margin: 1rem 0;
+}
+
+.card-header {
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+}
+
+/* --- HEADER COMPONENT --- */
+.header-option {
+  padding: 0.5rem 1rem;
+}
+
+.header-option a {
+  color: red;
+  font-size: 1rem;
+}
+
+#logo {
+  height: 100px;
+}
+
+label {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+/* --- SEARCHFORM COMPONENT --- */
+.search-button {
+  border-radius: 20px;
+  background-color: red;
+  font-size: 0.8rem;
+  border: none;
+}
+
+/* --- SEARCHRESULTS COMPONENTS */
+.result-title, .article-title {
+  margin: 0;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 700;
+}
+
+.result-date, .article-date {
+  font-size: 0.8rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.result-button, .remove-button {
+  background-color: black;
+  color: white;
+  font-size: 0.7rem;
+  border: none;
+  border-radius: 20px;
+}
+
+.result, .article {
+  margin: 0.5rem 0;
+  font-family: "Playfair Display", 'Times New Roman', Times, serif;
+}
+
+/* PSEUDOCLASSES */
+.result-button:hover, .remove-button:hover {
+  background-color: red;
+}
+
+.header-option a:hover {
+  text-decoration: none;
+}
+
+.header-option:hover {
+  color: white;
+  border-radius: 30px;
+  margin-bottom: 20px solid red;
+  background-color: black;
+}
